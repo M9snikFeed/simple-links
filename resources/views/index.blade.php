@@ -21,9 +21,9 @@
             <p>Быстрое сокращение ссылки:</p>
             <form id="link-shortening-form" onsubmit="return false">
                 <select name="protocol" class="protocol">
-                    <option value="https">HTTPS</option>
-                    <option value="http">HTTP</option>
-                </select> ://
+                    <option value="https">HTTPS://</option>
+                    <option value="http">HTTP://</option>
+                </select>
                 <input type="text" name="link" class="link" placeholder="Введите ссылку" id="link" required>
                 <button class="btn submit"type="submit">Сократить</button>
             </form>
@@ -42,5 +42,6 @@
         </footer>
     </div>
 </main>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
