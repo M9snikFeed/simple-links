@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Str;
 
 class Link extends Model
 {
@@ -13,7 +12,7 @@ class Link extends Model
     protected $primaryKey = 'PRIMARY';
     public $timestamps = false;
 
-    protected $attributes = [
+    protected $appends = [
         'protocol',
         'url',
         'simple_url'

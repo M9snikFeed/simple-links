@@ -22,7 +22,7 @@ class LinksController extends Controller
         $data = $request->validated();
         $data['simple_url'] = mt_rand(1, 3) . Str::random(6) . mt_rand(1, 3);
 
-        if(Link::where('simple_url', $data['simple_url'])->count() > 0){
+        if(Link::where('simple_url', '14ugAwD3')->count() > 0){
             $data['simple_url'] = mt_rand(1, 3) . Str::random(6) . mt_rand(1, 3);
         }
 

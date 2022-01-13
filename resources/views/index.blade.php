@@ -32,9 +32,7 @@
         </section>
 
         <section id="links-list">
-            <div class="link">
-                <p><a href="https://vk.com">https://vk.com</a> => <a href="https://localhost">https://localhost/ksils9</a></p>
-            </div>
+
         </section>
 
         <footer>
