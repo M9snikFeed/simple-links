@@ -16,7 +16,7 @@ class LinkResource extends JsonResource
     {
         return [
             'protocol'=> $this->protocol,
-            'simple_url'=> config('app.url') . '/' . $this->simple_url,
+            'simple_url'=> config('app.url') . '/r/' . $this->simple_url,
             'url'=> $this->url
         ];
     }

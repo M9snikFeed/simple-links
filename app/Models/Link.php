@@ -13,6 +13,12 @@ class Link extends Model
     protected $primaryKey = 'PRIMARY';
     public $timestamps = false;
 
+    protected $attributes = [
+        'protocol',
+        'url',
+        'simple_url'
+    ];
+
     protected $fillable = [
         'protocol',
         'url',
