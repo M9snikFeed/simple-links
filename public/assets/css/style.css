@@ -1,0 +1,87 @@
+/*
+ * Copyright (c) YukiDub. Author: M9snikFeed <m9snikfeed@gmail.com>.
+ *
+ * 13.1.2022
+ */
+
+html,
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background: #0f1217;
+    color: #fff; */
+}
+a:active,
+a:hover,
+a{
+    text-decoration: none;
+    color: black;
+}
+header {
+    padding: 24px 1%;
+}
+header > .logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+main{
+    min-height: 100%;
+}
+.content {
+    padding-bottom: 90px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #323334;
+    color: #FFFFFF;
+    padding: 0 1%;
+}
+.link-shortening{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #009beb;
+    color: #FFFF;
+    padding: 16px 0;
+}
+.info {
+    text-align: center;
+    margin-bottom: 42px;
+}
+.link-shortening > form > input.link,
+.link-shortening > form > .btn.submit,
+.link-shortening > form > select.protocol{
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13.7412px -8.58824px rgb(0 0 0 / 50%);
+}
+.link-shortening > form > select.protocol{
+    padding: 12px 18px;
+}
+.link-shortening > form > input.link{
+    padding: 12px 168px 12px 11px;
+    text-align: left;
+}
+.link-shortening > form > .btn:hover {
+    color:#009beb;
+}
+#links-list{
+    text-align: center;
+}
